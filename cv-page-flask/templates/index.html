@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Razmik Tiratsvyan</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="menu">
+      <div class="logo">Portfolio</div>
+      <div class="right_part" id="right_part">
+        <div class="menu_items m2" id="m2"><i class="fas fa-bars"></i></div>
+      </div>
+    </div>
+
+    <div class="responsive_menu" id="rm"></div>
+
+    <div class="main_info_div" id="about">
+      <div class="halfs h1">
+        <div class="hello">Hello, it's me</div>
+        <div class="name">Razmik Tiratsvyan</div>
+        <div class="hello">And I'm a <span> MERN-STACK Developer </span></div>
+        <div class="about">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s
+        </div>
+        <div class="icons_main" id="icons_part"></div>
+        <button class="btn">See more</button>
+      </div>
+
+      <div class="halfs h2">
+        <img src="../static/razmik.png" />
+      </div>
+    </div>
+
+    <div class="services_main" id="skills">
+      <div class="title">My skills are</div>
+      <div class="flexed_div" id="flexed_skills"></div>
+    </div>
+
+    <div class="portfolio_main" id="portfolio">
+      <div class="title">Portfolio</div>
+      <div class="flexed_div2" id="flexed_portfolio"></div>
+    </div>
+    
+
+    <div class="contact_main" id="contact">
+      <div class="title">Contact me</div>
+      <div class="contact_main2">
+        <div class="half1" id="contact_info"></div>
+        <div class="half2">
+          <input type='text' placeholder='Name' class='inp'>
+          <input type='email' placeholder='Email' class='inp'>
+          <input type='text' placeholder='type your message here...' class='inp'>
+          <button class='send_message'>Send message</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../static/script.js"></script>
+  </body>
+</html>
